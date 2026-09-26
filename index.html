@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Than My Best Friend ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================= -->
+    <!-- 🎵 OPTIONAL BACKGROUND MUSIC               -->
+    <!-- Replace 'music.mp3' with your own audio   -->
+    <!-- file in the same folder or use a URL      -->
+    <!-- ========================================= -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="musicBtn" class="music-btn" title="Play / Pause Music">
+        <span id="musicIcon">🎵</span>
+        <span id="musicText">Music</span>
+    </button>
+
+    <!-- ========================================= -->
+    <!-- 🌸 OPENING SCREEN                          -->
+    <!-- ========================================= -->
+    <div id="openingScreen" class="opening-screen">
+        <div class="opening-content">
+            <p class="opening-handwritten">
+                For someone who means more than words can explain…
+            </p>
+            <div class="heart-wrapper">
+                <svg id="openingHeart" class="opening-heart" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50,88 C20,68 5,50 5,32 C5,17 17,7 30,7 C40,7 47,13 50,20 C53,13 60,7 70,7 C83,7 95,17 95,32 C95,50 80,68 50,88 Z"
+                          fill="#e91e63" stroke="#fff" stroke-width="1"/>
+                </svg>
+                <div class="heart-glow"></div>
+                <p class="tap-hint">tap the heart</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- MAIN WEBSITE CONTENT (hidden at first)     -->
+    <!-- ========================================= -->
+    <div id="mainWebsite" class="main-website">
+
+        <!-- Particle / floating hearts background -->
+        <div id="particles" class="particles"></div>
+
+        <!-- ========================================= -->
+        <!-- 💖 HERO SECTION                            -->
+        <!-- ========================================= -->
+        <section class="hero-section">
+            <div class="hero-inner">
+                <h1 class="hero-heading reveal">
+                    You're More Than My Best Friend
+                    <span class="heart-red">❤️</span>
+                </h1>
+                <p class="hero-subtitle reveal">
+                    Because calling you my best friend somehow feels too small
+                    for what you actually mean to me.
+                </p>
+                <div class="hero-scroll-hint">
+                    <span></span>
+                    <p>scroll</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- ✨ IMPORTANT FEELINGS / HIGHLIGHTS         -->
+        <!-- ========================================= -->
+        <section class="highlights-section">
+            <div class="container">
+
+                <div class="highlight-card reveal">
+                    <p class="highlight-text">
+                        More than a <span class="accent-word">best friend.</span>
+                    </p>
+                </div>
+
+                <div class="highlight-card reveal">
+                    <p class="highlight-text">
+                        You are one of the people
+                        <span class="accent-word">closest to my heart.</span>
+                    </p>
+                </div>
+
+                <div class="highlight-card reveal">
+                    <p class="highlight-text small-text">
+                        Distance can keep us apart physically,
+                    </p>
+                    <p class="highlight-text small-text">
+                        but it can <span class="accent-word">never</span> make our bond less strong.
+                    </p>
+                </div>
+
+                <div class="highlight-card reveal">
+                    <p class="highlight-text small-text">
+                        No matter how far we are,
+                    </p>
+                    <p class="highlight-text small-text">
+                        our bond will always <span class="accent-word">stay tight.</span>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 🫶 PERSONAL MESSAGE SECTION                -->
+        <!-- ========================================= -->
+        <section class="message-section">
+            <div class="container">
+                <h2 class="section-heading reveal">
+                    A little something from my heart
+                </h2>
+                <div class="message-card reveal">
+
+                    <!-- ========================================= -->
+                    <!-- ✍️  BIRTHDAY MESSAGE                       -->
+                    <!-- (Feel free to edit anything below)        -->
+                    <!-- ========================================= -->
+
+                    <p class="msg-line msg-greeting">
+                        Happy Birthday ra <span class="heart-red">❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        First of all, Happiest Birthday to you! <span class="emoji">🎂</span>
+                    </p>
+
+                    <p class="msg-line">
+                        Nee birthday ki just "Happy Birthday" ani oka normal message petti
+                        aapesthe saripodu anipinchindi. Anduke konchem naa heart lo unna
+                        things anni ila letter lo rayali anipinchindi. Direct ga cheppaleni
+                        konni feelings ni at least ila aina cheppali anipinchindi.
+                    </p>
+
+                    <p class="msg-line">
+                        Actually mana friendship gurinchi alochisthe, manam eppudu ila
+                        close ayyamo naake teliyadu. Oka particular day or one big moment
+                        valla manam close avvaledu. Ala small-small conversations, random
+                        talks, jokes, teasing, laughs, silly things, misunderstandings,
+                        arguments, and chala memories… ila teliyakundane mana friendship
+                        chala special aipoyindi.
+                    </p>
+
+                    <p class="msg-line">
+                        Sometimes I feel, konni people mana life loki sudden ga vastaru.
+                        Appudu vallaki mana life lo entha important place vastundo manaki
+                        kuda teliyadu. But time pass ayye koddi, vallatho create ayina
+                        small memories anni kalisi vallani chala special person ga marchestayi.
+                    </p>
+
+                    <p class="msg-line msg-emphasis">
+                        Nuvvu kuda naaku alanti person.
+                    </p>
+
+                    <p class="msg-line">
+                        Nuvvu naa life lo just oka friend ani cheppadam konchem takkuve
+                        anipisthundi. Because nee place naaku chala special. Nitho
+                        matladina simple conversations kuda later gurthu vachinappudu
+                        smile vachesthundi. Mana silly talks aina, jokes aina, random
+                        discussions aina… avi appudu normal moments laga anipinchina,
+                        ippudu avi naaku chala precious memories.
+                    </p>
+
+                    <p class="msg-line">
+                        Mana madhya every time everything perfect ga undadu. Sometimes
+                        misunderstandings untayi, sometimes arguments untayi, sometimes
+                        manam matladukokunda untam. Kani somehow aa things mana friendship
+                        ni break cheyyalekapoyayi. Maybe that's one of the things I
+                        really like about our bond.
+                    </p>
+
+                    <p class="msg-line">
+                        Nitho comfortable ga undadam naaku chala important. Edaina
+                        random topic aina, serious matter aina, silly matter aina…
+                        nitho share cheyyagalanu ane feeling itself is special.
+                    </p>
+
+                    <p class="msg-line">
+                        And honestly, nenu ekkuva express cheyyakapovachu. Konni
+                        feelings words lo cheppadam naaku easy kaadu. Sometimes normal
+                        ga behave chestha, but inside I care a lot.
+                        <span class="msg-strong">Nee happiness naaku genuinely important.</span>
+                    </p>
+
+                    <p class="msg-line">
+                        Nuvvu happy ga unte naaku kuda happy ga anipisthundi. Nuvvu
+                        life lo baaga achieve cheyyali, nee dreams anni fulfill avvali,
+                        and nuvvu peaceful ga undali ani genuinely wish chestha.
+                    </p>
+
+                    <p class="msg-line msg-emphasis">
+                        And there is one more thing I don't usually say.
+                    </p>
+
+                    <p class="msg-line msg-special">
+                        Nenu ninnu daily miss avutha.
+                    </p>
+
+                    <p class="msg-line">
+                        Sometimes every small moment lo kuda "nuvvu unte bagundhu" ani
+                        anipisthundi. Edaina interesting thing jarigina, edaina funny
+                        thing chusina, or just random ga unna… konni times automatically
+                        "nuvvu ikkada unte bagundhu" ani anipisthundi.
+                    </p>
+
+                    <p class="msg-line">
+                        Distance valla manam anukunnappudu kalavalem. Everyday
+                        matladukovadam kuda possible kaadu. Kani distance unna kuda,
+                        nee presence naa mind lo chala times untundi.
+                    </p>
+
+                    <p class="msg-line">
+                        Nuvvu pakkana unte simple moments kuda special ga anipisthayi.
+                    </p>
+
+                    <p class="msg-line msg-emphasis">
+                        And mana memories lo oka memory matram
+                        nenu life long marchiponu.
+                    </p>
+
+                    <p class="msg-line msg-special-heart">
+                        Train daggara nannu "Manu… Manu… Manu…" ani pilichina moment.
+                        <span class="emoji">🥹❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        Adi chala small moment laga anipinchachu. Maybe neeku adi just
+                        normal moment ayyi undochu. Kani naaku adi one of the most
+                        beautiful memories.
+                    </p>
+
+                    <p class="msg-line">
+                        Aa moment enduku antha special ante naaku exact ga reason kuda
+                        teliyadu. But aa scene, aa moment, nuvvu ala pilichina way…
+                        anni naa mind lo ala fix aipoyayi.
+                    </p>
+
+                    <p class="msg-line">
+                        Life lo enni years pass aina, aa memory gurthu vachina every
+                        time I think I will smile.
+                    </p>
+
+                    <p class="msg-line">
+                        Maybe mana life lo thousands of memories create avuthayi.
+                        Chala people ni meet avutham, chala places ki veltham, chala
+                        new experiences vastayi. Kani konni moments matram heart lo
+                        permanent ga undipothayi.
+                    </p>
+
+                    <p class="msg-line msg-emphasis">
+                        Aa train daggara moment naaku alantide.
+                    </p>
+
+                    <p class="msg-line">
+                        I don't know whether you remember every small thing like I do,
+                        but I remember them. Because they matter to me.
+                    </p>
+
+                    <p class="msg-line">
+                        Ninnu miss avvadam ante just nee presence miss avvadam kaadu.
+                        Mana talks, mana laughs, mana silly moments, mana random
+                        conversations, and mana memories anni miss avvadam.
+                    </p>
+
+                    <p class="msg-line">
+                        Sometimes I really wish we could go back to those simple days
+                        and just relive them once again. No big plans, no special
+                        occasion… just those normal moments.
+                    </p>
+
+                    <p class="msg-line">
+                        Maybe that's why small memories are sometimes more valuable
+                        than big moments.
+                    </p>
+
+                    <p class="msg-line">
+                        And one day, years later, manam mana old conversations and
+                        memories gurthu cheskunnappudu, "Manam ila close avutham ani
+                        appudu anukoledu" ani navvukovali.
+                    </p>
+
+                    <p class="msg-line">
+                        Maybe life changes. People change. Places change. Priorities
+                        change. Manam kuda different paths lo vellachu. Future lo
+                        manam entha busy aina, different places lo unna… mana
+                        friendship ki unna respect and value matram eppudu change
+                        avvakudadhu ani korukuntunna.
+                    </p>
+
+                    <p class="msg-line">
+                        I don't know what the future holds for us as friends,
+                        but I know one thing —
+                    </p>
+
+                    <p class="msg-line msg-emphasis">
+                        I am genuinely grateful that I met you.
+                    </p>
+
+                    <p class="msg-line msg-special">
+                        Naa life lo nuvvu oka beautiful part ayyav.
+                        <span class="heart-red">❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        And I will always be thankful for all the memories
+                        we created together.
+                    </p>
+
+                    <div class="thanks-list">
+                        <p class="msg-line thanks-line">Thank you for listening to me.</p>
+                        <p class="msg-line thanks-line">Thank you for understanding me.</p>
+                        <p class="msg-line thanks-line">Thank you for making me laugh.</p>
+                        <p class="msg-line thanks-line">Thank you for all the random conversations.</p>
+                        <p class="msg-line thanks-line">Thank you for all the little memories.</p>
+                        <p class="msg-line thanks-line">Thank you for being there in your own way.</p>
+                        <p class="msg-line thanks-line thanks-final">
+                            And most importantly, thank you for being yourself.
+                        </p>
+                    </div>
+
+                    <p class="msg-line">
+                        Ee letter chadivina tarvatha nuvvu "intha enduku raasav?" ani
+                        anukovachu <span class="emoji">😂</span>
+                    </p>
+
+                    <p class="msg-line">
+                        But birthday kabatti, once in a while ila cheppali kada.
+                    </p>
+
+                    <p class="msg-line">
+                        I don't want to make this complicated.
+                        I just want you to know one simple thing —
+                    </p>
+
+                    <p class="msg-line msg-big-heart">
+                        Our friendship means a lot to me.
+                        <span class="heart-red">❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        That's it.
+                    </p>
+
+                    <p class="msg-line">
+                        No matter how busy life becomes, I hope we always find some
+                        time to talk, laugh, annoy each other, and create new memories.
+                    </p>
+
+                    <p class="msg-line">
+                        And whenever life gets difficult, I hope you remember that
+                        there are people who genuinely care about you and wish good
+                        things for you.
+                    </p>
+
+                    <div class="wishes-block">
+                        <p class="msg-line">Please always take care of yourself.</p>
+                        <p class="msg-line">Don't forget your worth.</p>
+                        <p class="msg-line">Don't give up on your dreams.</p>
+                        <p class="msg-line">Keep moving forward.</p>
+                        <p class="msg-line">And please don't change the good person you are.</p>
+                    </div>
+
+                    <p class="msg-line">
+                        I hope this birthday brings you lots of happiness, peace,
+                        success, and beautiful memories.
+                    </p>
+
+                    <p class="msg-line">
+                        I hope this new year of your life gives you everything
+                        you've been working for.
+                    </p>
+
+                    <div class="stay-block">
+                        <p class="msg-line stay-line">Stay happy.</p>
+                        <p class="msg-line stay-line">Stay healthy.</p>
+                        <p class="msg-line stay-line">Keep smiling.</p>
+                        <p class="msg-line stay-line stay-final">
+                            And always be the same person I got to know.
+                        </p>
+                    </div>
+
+                    <p class="msg-line">
+                        Thank you for becoming such an important part of my life
+                        without even trying.
+                    </p>
+
+                    <p class="msg-line">
+                        And if someday we look back at these days, I hope we both
+                        smile and say,
+                    </p>
+
+                    <p class="msg-line msg-special">
+                        "We were really lucky to have found each other as friends."
+                        <span class="heart-red">❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        Whatever happens in life, I hope our friendship always
+                        remains one of those beautiful chapters that we can look
+                        back on with a smile.
+                    </p>
+
+                    <p class="msg-line">
+                        And yes…
+                    </p>
+
+                    <p class="msg-line">
+                        That "Manu… Manu… Manu…" from the train —
+                    </p>
+
+                    <p class="msg-line msg-special-heart">
+                        Adi matram nenu life long marchiponu.
+                        <span class="heart-red">❤️</span>
+                    </p>
+
+                    <p class="msg-line msg-closing-greeting">
+                        Once again, Happiest Birthday ra! <span class="emoji">🎂❤️</span>
+                    </p>
+
+                    <p class="msg-line">
+                        I hope you get all the happiness you deserve.
+                    </p>
+
+                    <p class="msg-line">
+                        Take care of yourself, always.
+                    </p>
+
+                    <p class="msg-line msg-signature">
+                        — Always your friend <span class="heart-red">❤️</span>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 📍 DISTANCE SECTION                        -->
+        <!-- ========================================= -->
+        <section class="distance-section">
+            <div class="container distance-container">
+
+                <div class="distance-visual reveal">
+                    <div class="loc-point loc-1">
+                        <div class="loc-dot"></div>
+                        <div class="loc-label">You</div>
+                    </div>
+                    <svg class="bond-path" viewBox="0 0 600 100" preserveAspectRatio="none">
+                        <defs>
+                            <linearGradient id="bondGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#ff7eb9;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#e91e63;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#ff7eb9;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path id="bondLine"
+                              d="M 50 70 Q 150 10, 300 50 T 550 30"
+                              stroke="url(#bondGradient)"
+                              stroke-width="3"
+                              fill="none"
+                              stroke-dasharray="10 8"
+                              stroke-linecap="round"/>
+                    </svg>
+                    <div class="loc-point loc-2">
+                        <div class="loc-dot"></div>
+                        <div class="loc-label">Me</div>
+                    </div>
+                    <div class="floating-hearts">
+                        <span class="mini-heart">❤</span>
+                        <span class="mini-heart">❤</span>
+                        <span class="mini-heart">❤</span>
+                    </div>
+                </div>
+
+                <h3 class="distance-text-1 reveal">Distance can keep us far…</h3>
+                <h3 class="distance-text-2 reveal">…but it can never make our bond distant.</h3>
+                <h3 class="distance-text-3 reveal">
+                    Some bonds don't depend on distance.
+                    <span class="heart-red">❤️</span>
+                </h3>
+
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 📸 MEMORIES SECTION                        -->
+        <!-- ========================================= -->
+        <section class="memories-section">
+            <div class="container">
+                <h2 class="section-heading reveal">Our Moments</h2>
+                <p class="section-subheading reveal">
+                    Little moments that became big memories.
+                </p>
+
+                <!-- ========================================= -->
+                <!-- 🖼️  MEMORY GRID - 6 cards                  -->
+                <!-- Replace src with your own image files      -->
+                <!-- Example: images/memory1.jpg                -->
+                <!-- You can also use videos as memory5 shows   -->
+                <!-- ========================================= -->
+                <div class="memories-grid">
+
+                    <!-- Memory 1 -->
+                    <div class="memory-card reveal"
+                         data-type="image"
+                         data-src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-16 at 6.09.38 PM.jpeg"
+                         data-caption="One of our good days ✨">
+                        <div class="memory-media">
+                            <!-- Your real photo is placed here -->
+                            <img src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-16 at 6.09.38 PM.jpeg" alt="Memory 1"
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>📷</span><p>Add your photo here<br><small>images/memory1.jpg</small></p></div>'">
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">16 · Sep</span>
+                            <p class="memory-caption">One of our good days ✨</p>
+                        </div>
+                    </div>
+
+                    <!-- Memory 2 -->
+                    <div class="memory-card reveal"
+                         data-type="image"
+                         data-src="C:\Users\MUSKAN\Downloads\IMG_20260904_111023.jpg"
+                         data-caption="Laughs that never get old 😂">
+                        <div class="memory-media">
+                            <!-- Your real photo is placed here -->
+                            <img src="C:\Users\MUSKAN\Downloads\IMG_20260904_111023.jpg" alt="Memory 2"
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>📷</span><p>Add your photo here<br><small>images/memory2.jpg</small></p></div>'">
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">04 · Sep</span>
+                            <p class="memory-caption">Laughs that never get old 😂</p>
+                        </div>
+                    </div>
+
+                    <!-- Memory 3 -->
+                    <div class="memory-card reveal"
+                         data-type="image"
+                         data-src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-21 at 12.29.01 AM.jpeg"
+                         data-caption="Random silliness we do 🤭">
+                        <div class="memory-media">
+                            <!-- Your real photo is placed here -->
+                            <img src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-21 at 12.29.01 AM.jpeg" alt="Memory 3"
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>📷</span><p>Add your photo here<br><small>images/memory3.jpg</small></p></div>'">
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">21 · Sep</span>
+                            <p class="memory-caption">Random silliness we do 🤭</p>
+                        </div>
+                    </div>
+
+                    <!-- Memory 4 -->
+                    <div class="memory-card reveal"
+                         data-type="image"
+                         data-src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-26 at 12.02.10 PM (1).jpeg"
+                         data-caption="The little things I always remember ❤️">
+                        <div class="memory-media">
+                            <!-- Your real photo is placed here -->
+                            <img src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-26 at 12.02.10 PM (1).jpeg" alt="Memory 4"
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>📷</span><p>Add your photo here<br><small>images/memory4.jpg</small></p></div>'">
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">26 · Sep 🎂</span>
+                            <p class="memory-caption">The little things I always remember ❤️</p>
+                        </div>
+                    </div>
+
+                    <!-- Memory 5 (Video example) -->
+                    <div class="memory-card reveal"
+                         data-type="video"
+                         data-src="C:\Users\MUSKAN\OneDrive\Pictures\Camera Roll\WIN_20260926_19_55_09_Pro.mp4"
+                         data-caption="A clip I'll always save 🥹❤️">
+                        <div class="memory-media">
+                            <!-- Your video file is placed here -->
+                            <video muted playsinline
+                                   onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>🎥</span><p>Add your video here<br><small>videos/memory1.mp4</small></p></div>'">
+                                <source src="C:\Users\MUSKAN\OneDrive\Pictures\Camera Roll\WIN_20260926_19_55_09_Pro.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-icon">▶</div>
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">Today · 26-09-2026</span>
+                            <p class="memory-caption">A clip I'll always save 🥹❤️</p>
+                        </div>
+                    </div>
+
+                    <!-- Memory 6 -->
+                    <div class="memory-card reveal"
+                         data-type="image"
+                         data-src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-26 at 12.02.10 PM.jpeg"
+                         data-caption="Birthday smiles forever 🎂✨">
+                        <div class="memory-media">
+                            <!-- Your real photo is placed here -->
+                            <img src="C:\Users\MUSKAN\Downloads\WhatsApp Image 2026-09-26 at 12.02.10 PM.jpeg" alt="Memory 5"
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img&quot;><span>📷</span><p>Add your photo here<br><small>images/memory5.jpg</small></p></div>'">
+                        </div>
+                        <div class="memory-info">
+                            <span class="memory-label">Birthday Day</span>
+                            <p class="memory-caption">Birthday smiles forever 🎂✨</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 🥹 BEST MOMENT HIGHLIGHT                   -->
+        <!-- ========================================= -->
+        <section class="best-moment-section">
+            <div class="container">
+                <h2 class="section-heading reveal">
+                    One of My Favorite Moments
+                    <span class="heart-red">❤️</span>
+                </h2>
+
+                <div class="best-moment-frame reveal">
+                    <div class="best-glow"></div>
+
+                    <div class="best-media">
+                        <!-- ========================================= -->
+                        <!-- 🌟 REPLACE WITH YOUR MOST SPECIAL PHOTO/   -->
+                        <!-- VIDEO. Use images/special.jpg or           -->
+                        <!-- videos/special.mp4                         -->
+                        <!--  (Your selfie placeholder is here now)     -->
+                        <!-- ========================================= -->
+                        <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=warm%20happy%20selfie%20of%20two%20close%20south%20indian%20friends%20smiling%20together%2C%20woman%20in%20teal%20saree%20with%20gold%20jewellery%20bindi%20glasses%2C%20man%20in%20red%20polo%20tshirt%20glasses%2C%20posing%20closely%20with%20genuine%20smiles%2C%20soft%20daylight%2C%20metal%20roof%20background%2C%20casual%20candid%20emotional%20moment%2C%20photorealistic&image_size=square_hd"
+                             alt="Favorite Moment - Our Selfie"
+                             onerror="this.parentElement.innerHTML='<div class=&quot;placeholder-img placeholder-special&quot;><span>🌟</span><p>Your most special memory here<br><small>images/special.jpg</small></p></div>'">
+                    </div>
+
+                    <p class="best-caption">
+                        Some moments become memories.
+                        <br>
+                        Some memories become a part of us.
+                    </p>
+
+                    <div class="best-hearts">
+                        <span class="best-heart">❤</span>
+                        <span class="best-heart">❤</span>
+                        <span class="best-heart">❤</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 💌 LETTER SECTION                          -->
+        <!-- ========================================= -->
+        <section class="letter-section">
+            <div class="container">
+                <h2 class="section-heading reveal">
+                    If I Had To Explain What You Mean To Me…
+                </h2>
+
+                <div class="letter-paper reveal">
+                    <div class="paper-texture"></div>
+                    <div class="letter-content">
+
+                        <p class="letter-salutation handwritten">Dear You,</p>
+
+                        <p class="letter-para">
+                            There's something really rare about finding a person who
+                            doesn't just stay in your life — but quietly becomes a part
+                            of it. Who doesn't need big efforts or constant talking to
+                            still feel <span class="letter-accent">so close</span>.
+                        </p>
+
+                        <p class="letter-para">
+                            I don't say this enough. I don't really know how to say
+                            this enough. But there are some people in life you don't
+                            just call "friends." They become something bigger.
+                            Something deeper. Something that calling them a
+                            <span class="letter-accent">best friend</span> feels
+                            like an understatement.
+                        </p>
+
+                        <p class="letter-para">
+                            You are that someone to me.
+                        </p>
+
+                        <p class="letter-para">
+                            You are the person I think about when something funny
+                            happens. You are the person I hope is proud when
+                            something good happens to me. You are the comfort in
+                            the chaos, the silence that never feels awkward, the
+                            laughter that starts from the silliest little thing.
+                        </p>
+
+                        <p class="letter-para">
+                            We may not talk every day. We may not meet whenever we
+                            want. We may be far. But nothing about that changes
+                            how <span class="letter-accent">valuable</span> you are.
+                            Nothing about that changes how much your presence in
+                            my life has changed me for the better.
+                        </p>
+
+                        <p class="letter-para">
+                            You taught me that some people are not just passing by.
+                            They stay. They stay in your habits, in your memories,
+                            in the way you smile when you remember that one thing
+                            you both once laughed at.
+                        </p>
+
+                        <p class="letter-para letter-signoff-line">
+                            Thank you for being one of those people for me.
+                        </p>
+
+                        <p class="letter-signature handwritten">
+                            Always,
+                            <br>
+                            Your friend <span class="heart-red">❤️</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 🎯 UPSC PROMISE / BIRTHDAY PLEDGE          -->
+        <!-- ========================================= -->
+        <section class="promise-section">
+            <div class="container">
+
+                <div class="promise-heading-wrap reveal">
+                    <div class="promise-emblem">
+                        <svg viewBox="0 0 100 100" class="promise-svg">
+                            <!-- Laurel wreath + book -->
+                            <path d="M20,70 Q10,55 15,35 Q20,18 35,14"
+                                  stroke="#c9a96e" stroke-width="2.5"
+                                  fill="none" stroke-linecap="round"/>
+                            <path d="M80,70 Q90,55 85,35 Q80,18 65,14"
+                                  stroke="#c9a96e" stroke-width="2.5"
+                                  fill="none" stroke-linecap="round"/>
+                            <path d="M22,55 L30,52 M24,45 L32,43 M26,35 L34,33 M78,55 L70,52 M76,45 L68,43 M74,35 L66,33"
+                                  stroke="#c9a96e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                            <rect x="30" y="44" width="40" height="30" rx="2"
+                                  fill="none" stroke="#8a3356" stroke-width="2"/>
+                            <line x1="50" y1="44" x2="50" y2="74"
+                                  stroke="#8a3356" stroke-width="1.5"/>
+                            <path d="M33,52 L47,52 M33,58 L47,58 M33,64 L47,64 M53,52 L67,52 M53,58 L67,58 M53,64 L67,64"
+                                  stroke="#d4a5bd" stroke-width="1.4" stroke-linecap="round"/>
+                            <circle cx="50" cy="24" r="3.5" fill="#e91e63"/>
+                        </svg>
+                    </div>
+
+                    <p class="promise-label">
+                        On your birthday…
+                    </p>
+
+                    <h2 class="promise-title reveal">
+                        I took a big step for my life.
+                    </h2>
+
+                    <div class="promise-pledge-card reveal">
+                        <div class="pledge-border-top"></div>
+
+                        <p class="pledge-line pledge-main">
+                            I promise to crack
+                        </p>
+
+                        <p class="pledge-goal">
+                            <span class="goal-2027">UPSC</span>
+                            <span class="goal-year">2027</span>
+                        </p>
+
+                        <p class="pledge-gift reveal">
+                            This is my birthday gift
+                            <br>
+                            <span class="pledge-to-myself">to myself.</span>
+                        </p>
+
+                        <p class="pledge-name reveal">
+                            — Sai ❤️
+                        </p>
+
+                        <div class="pledge-border-bottom"></div>
+                    </div>
+
+                    <p class="promise-quote reveal">
+                        Some birthdays are just celebrations.
+                        <br>
+                        This one is a promise. 🇮🇳
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- 🌙 FINAL / NIGHT SECTION                   -->
+        <!-- ========================================= -->
+        <section class="final-section">
+            <div class="final-stars"></div>
+
+            <div class="final-inner">
+
+                <p class="final-line reveal">
+                    No matter where life takes us…
+                </p>
+
+                <p class="final-line reveal">
+                    No matter how much distance comes between us…
+                </p>
+
+                <p class="final-line final-strong reveal">
+                    Some bonds just stay.
+                    <span class="heart-red">❤️</span>
+                </p>
+
+                <p class="final-line final-strong-2 reveal">
+                    And ours is one of them.
+                </p>
+
+                <svg class="final-heart" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50,88 C20,68 5,50 5,32 C5,17 17,7 30,7 C40,7 47,13 50,20 C53,13 60,7 70,7 C83,7 95,17 95,32 C95,50 80,68 50,88 Z"
+                          fill="#ff5c8a"/>
+                </svg>
+
+                <p class="final-footer reveal">
+                    Made with a lot of memories, and a little bit of love.
+                </p>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- 🖼️  LIGHTBOX (expanded memory viewer)      -->
+    <!-- ========================================= -->
+    <div id="lightbox" class="lightbox">
+        <span id="lightboxClose" class="lightbox-close">×</span>
+        <div class="lightbox-content">
+            <div id="lightboxMedia" class="lightbox-media"></div>
+            <p id="lightboxCaption" class="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
